@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 
 class AddNinja extends Component {
-    state = {
-        name: null,
-        age: null,
-        belt: null
-    }
+    state = { name: null, age: null, belt: null }
     handleChange = (e) => {
         this.setState({
             [e.target.id]: e.target.value
